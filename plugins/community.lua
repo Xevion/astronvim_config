@@ -16,6 +16,8 @@ return {
   { import = "astrocommunity.pack.kotlin" },
   { import = "astrocommunity.pack.proto" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.media.presence-nvim" },
+  { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
