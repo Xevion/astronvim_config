@@ -15,12 +15,20 @@ return {
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.kotlin" },
   { import = "astrocommunity.pack.proto" },
+  { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
-  { import = "astrocommunity.scrolling.neoscroll-nvim"},
+  { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
-  { import = "astrocommunity.editing-support.todo-comments-nvim" }
+  {
+    import = "astrocommunity.editing-support.todo-comments-nvim",
+    opts = {
+      colors = {
+        info = { "#0D0D0F" },
+      },
+    },
+  },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
