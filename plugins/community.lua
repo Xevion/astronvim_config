@@ -25,6 +25,14 @@ return {
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   {
+    import = "astrocommunity.completion.copilot-lua",
+    opts = {
+      suggestion = {
+        keymap = {},
+      },
+    },
+  },
+  {
     import = "astrocommunity.editing-support.todo-comments-nvim",
     opts = {
       colors = {
