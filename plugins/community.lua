@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.kotlin" },
   { import = "astrocommunity.pack.proto" },
